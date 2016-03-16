@@ -7,7 +7,7 @@
 
 <SplitPane fx:id="splitPane" dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="140.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="os.windows.loadwindow.LoadWindowController">
   <items>
-    <AnchorPane fx:id="leftPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="100.0">
+    <AnchorPane fx:id="leftPane" prefHeight="160.0" prefWidth="100.0">
          <children>
             <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Load..." AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="45.0" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Load" textAlignment="CENTER" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="10.0">

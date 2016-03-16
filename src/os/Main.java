@@ -14,6 +14,7 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("os/windows/loadwindow/LoadWindow.fxml"));
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("windows/application.css").toExternalForm());
+			primaryStage.setResizable(false);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
